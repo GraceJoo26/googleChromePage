@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,700&display=swap");
+body {
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+h1 {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+}
+.hidden {
+  display: none !important;
+}
+html {
+  position: relative;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+#login-form {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+#login-form input {
+  color: #fff;
+  border: 2px dotted #fff;
+  border-radius: 20px 0px 0px 20px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+}
+#login-form input::placeholder {
+  color: #fff;
+}
+
+#login-form button {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+  color: #fff;
+  border-radius: 0px 20px 20px 0px;
+  border: 2px dotted #fff;
+  margin-left: 10px;
+}
+#clock {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: center;
+  font-size: 180px;
+  color: #fff;
+  z-index: 1;
+}
+#greeting {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 50px;
+}
+#todo-form {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-items: center;
+  color: #fff;
+}
+#todo-form input {
+  color: #fff;
+  border: 2px dotted #fff;
+  border-radius: 20px 20px 20px 20px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+  margin-top: 40px;
+  font-size: 20px;
+}
+#todo-form input::placeholder {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+.todo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+#todo-list {
+  width: 310px;
+  padding: 10px;
+}
+#todo-list li {
+  color: #fff;
+  padding: 10px;
+  border-bottom: 2px dotted #fff;
+  font-size: 20px;
+}
+#todo-list .li_class {
+  display: flex;
+  justify-content: space-between;
+}
+.quote {
+  width: 500px;
+  color: #fff;
+  position: absolute;
+  top: 700px;
+  left: calc(50% - 250px);
+}
+#quote span:first-child {
+  display: block;
+  color: #fff;
+  text-align: center;
+}
+#quote span:last-child {
+  display: block;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+#weather {
+  color: #fff;
+  width: 300px;
+}
+#weather span {
+  color: #fff;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+}
+#weather .weather {
+  width: 310px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: 2px dotted #fff;
+  border-radius: 20px 20px 20px 20px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+  margin-top: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+#weather .second_child {
+  margin-top: 30px;
+}
+.todo_weather {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
